@@ -1,0 +1,57 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #26b;
+}
+img {
+  max-width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000428, #004e92); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  margin: 0;
+  font-weight: 100;
+  text-align: left;
+  font-size: 40px;
+  color: #fefefe;
+  position: relative;
+}
+header a, header a:visited{
+  font-weight: 100;
+  color: #fefefe;
+}
